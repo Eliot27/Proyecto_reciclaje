@@ -1,0 +1,9 @@
+.base {
+    border-radius: 28px;    
+    text-align: center;
+    color: #b4b4b5;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
