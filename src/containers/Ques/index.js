@@ -1,9 +1,9 @@
 import styles from "./ques.module.css";
 
-const Ques = ({ children, className, ...props }) => {
+const Ques = ({}) => {
     return (
-        <div className={`${styles.notice} ${className}`} {...props}>
-            {children}
+        <div className={styles.ques}>
+            <h2 className={styles.names}><span>PREGUNTAS FRECUENTES</span></h2>
         </div>
     );
 };

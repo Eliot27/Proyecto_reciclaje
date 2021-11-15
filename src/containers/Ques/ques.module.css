@@ -1,2 +1,23 @@
+.ques{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   background-color: #EFEFEF;   
+}
+.names {
+    width: 95%; 
+    text-align: center; 
+    align-self: center;
+    border-bottom: 1px solid #34A0A3; 
+    line-height: 0.1em;
+    margin-top: 50px;
+    color: #34A0A3; 
 
+ } 
+ 
+.names span { 
+     background:#EFEFEF; 
+     padding:0 10px; 
+ }
 

@@ -1,6 +1,14 @@
 import style from './navigator.module.css';
+import { useHistory } from "react-router-dom";
 
 const Navigator = ({ }) => {
+  const history = useHistory();
+  const onNews = () => {
+    history.push("/home");
+  };
+  const onQues = () => {
+    history.push("/ques");
+  };
   return (
     <nav className={style.nav}>
       <div className={style.img}>
@@ -12,10 +20,10 @@ const Navigator = ({ }) => {
         <button className={style.searchButton}>Buscar</button>
       </div>
       <div className={style.nav_list}>
-        <div className={style.text}>
+        <div className={style.text} onClick={onNews}>
           <p className={style.psd1}>Noticias</p>
         </div>
-        <div className={style.text}>
+        <div className={style.text} onClick={onQues}>
           <p className={style.psd2}>¿Preguntas?</p>
         </div>
       </div>
