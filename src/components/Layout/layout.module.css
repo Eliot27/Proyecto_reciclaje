@@ -1,4 +1,37 @@
-.base {    
-    color: #b4b4b5;    
+.root{
+    background-color: #EFEFEF;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.p1 {
+    border-right: 1px solid white;
+    padding: 5px 20px;
+}
+
+.p3 {
+    padding: 5px 20px;
+}
+
+.seccion1 {
+    background-color: #34A0A3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.seccion2 {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
