@@ -1,0 +1,10 @@
+.rootimg {
+    margin-bottom: 10px;     
+}
+
+.imgban{
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+}
+
