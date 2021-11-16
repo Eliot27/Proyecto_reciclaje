@@ -1,9 +1,9 @@
-import style from './banner.module.css';
+import styles from './banner.module.css';
 
 const Banner = ({}) => {
   return (
-    <div className={style.rootimg}>
-      <img className={style.imgban} src={"/assets/banner1.png"} alt={"arboles"} />      
+    <div className={styles.rootimg}>
+      <img className={styles.imgban} src={"/assets/banner1.png"} alt={"arboles"} />      
     </div>
   );
 };
